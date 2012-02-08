@@ -1,0 +1,57 @@
+
+<!--div id="form_usuario">
+	
+	<form action="registro.php?action=[acctionformulario]" method="post" enctype="multipart/form-data">
+		
+			<legend><strong>Formulario Usuario</strong></legend>
+			<label >(*) Nombre: </label><input type="text" name="nombreUsuario" value="" size=""><br />
+			<label>E-mail: </label><input type="text" name="emailUsuario" value="" size=""><br />
+			<label>(*) Cuenta: </label><input type="text" name="cuentaUsuario" value="" size=""><br />
+			<label>(*) Password: </label><input type="text" name="passwordUsuario" value="" size=""><br />
+			<label>Imagen: </label><input name="archivo" type="file" class="casilla" id="archivo" size="10" />
+			<input name="action" type="hidden" value="upload" />	
+					
+			<input type="submit" name="" value="Guardar">
+			<input type="reset" name="" value="Limpiar">
+		
+	</form>
+	
+</div-->
+
+<div id="form_usuario">
+	
+	<form action="registro.php?action=[acctionformulario]" method="post"  onSubmit = "return validar(this)" enctype="multipart/form-data">
+		<fieldset>
+			<table>
+				<tr>
+					<th colspan="2"><strong>Registro Nuevo Usuario</strong></th>
+				</tr>
+				<tr>
+					<td>Nombre:</td><td><input type="text" name="nombreUsuario" value="" size=""></td>
+				</tr>
+				<tr>
+					<td>E-mail:</td><td><input type="text" name="emailUsuario" value="" size=""></td>
+				</tr>
+				<tr>
+					<td>Cuenta:</td><td><input type="text" name="cuentaUsuario" value="" size=""></td>
+				</tr>
+				<tr>
+					<td>Password</td><td><input type="password" name="passwordUsuario" value="" size=""></td>
+				</tr>
+				<tr>
+					<td>Imagen:</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input name="archivo" type="file" class="casilla" id="archivo" size="" />
+						<input name="action" type="hidden" value="upload" />
+					</td>
+				</tr>
+				<tr >
+					<td colspan="2"><input type="submit" name="" value="Registrarme" size=""></td> </br>
+					
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+	
+</div>

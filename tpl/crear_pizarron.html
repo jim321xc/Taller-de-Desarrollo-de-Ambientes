@@ -1,0 +1,35 @@
+<div id="form_pizarron">
+<form action="registro.php?action=[acctionformulario]" name="form" method="post"  enctype="multipart/form-data" >
+	<fieldset>
+	<table>
+	<tr>
+		<th colspan="2">Pizarron</th>
+	</tr>
+	<tr>
+		<td id="imagen">[img]</td>
+		<td><textarea name="informacion" cols="50" rows="2" >[informacion]</textarea></td>
+		
+	</tr>	
+	<tr>
+		<td>[imagen]</td>
+		<td id="boton"><input type="button" onClick="envia('registro.php?action=[botonguardar]')" value="Publicar"></td>
+	</tr>
+	</table>
+	</fieldset>
+	<div id="formImg"></div>
+</form>
+
+</div>
+
+<div id="form_pizarron3">
+<form action="registro.php?action=[acctionformulario]" method="post" enctype="multipart/form-data" >
+	[lista1]
+	[lista2]
+</form>
+</div>
+<script LANGUAGE="JavaScript">
+	function envia(pag){ 
+		document.form.action= pag 
+		document.form.submit() 
+	} 
+</script>

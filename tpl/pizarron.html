@@ -1,0 +1,19 @@
+<div id='form_pizarron'>
+
+	<form action="registro.php?action=[acctionformulario]" name="form" method="post"  enctype="multipart/form-data" >
+	
+	<textarea name="parrafo" cols="45">[datos]</textarea>
+	
+	[imagen]
+	
+	<div id="formImg"></div>
+
+	<input type="button" onClick="envia('registro.php?action=guardarPizarron')" value="Publicar">
+	</form>
+</div>
+<SCRIPT LANGUAGE="JavaScript">
+	function envia(pag){ 
+		document.form.action= pag 
+		document.form.submit() 
+	} 
+</script>

@@ -1,0 +1,32 @@
+<!--div id="form_sesion">
+	<fieldset><legend><strong>Formulario Usuario</strong></legend>
+		<form action="index.php?action=[acctionformulario]" method="post" enctype="multipart/form-data">
+			<label >Usuario: </label><input type="text" name="usuario" value="" size=""><br />
+			<label >Contraseña: </label><input type="password" name="password" value="" size=""><br />
+										<input type="submit" name="password" value="Aceptar" size=""><br />
+		</form>
+	</fieldset>
+</div-->
+
+<div id="form_sesion">
+	<form action="index.php?accion=validaUsuario" method="post">
+		<fieldset>
+			<table>
+				<tr>
+					<th colspan="2"><strong>Autentificación</strong></th>
+				</tr>
+				<tr>
+					<td>Cuenta:</td>
+					<td><input type="text" name="usuario" value="" size=""></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="password" value="" size=""></td>
+				</tr>
+				<tr>
+					<td></td><td><input type="submit" name="" value="Aceptar" size=""></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>	
+</div>

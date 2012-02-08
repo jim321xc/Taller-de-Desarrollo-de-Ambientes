@@ -1,0 +1,30 @@
+<div id="form_usuario">
+<!--form  action="registro.php?action=[acctionformulario]" method="post"-->
+<form action="registro.php?action=[acctionformulario]" method="post"  onSubmit = "return validar(this)" enctype="multipart/form-data">
+<fieldset>
+	<table>
+		<tr>
+			<th>Busca Usuario</th>
+		</tr>
+		<tr>
+			<td><label>E-mail: </label><input type="text" name="buscar" /><td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="" value="Buscar" /><td>
+		</tr>
+	</table>
+</fieldset>
+</form>
+</div>
+<script>
+function validar(formulario) {
+
+	if ((formulario.buscar.value.indexOf ('@', 0) == -1)||(formulario.buscar.value.length < 5)) { 
+		alert("Escriba una dirección de correo válida en el campo \"Dirección de correo\"."); 
+		formulario.buscar.focus(); 
+		return (false); 
+	}
+  
+  return (true); 
+}
+</script>

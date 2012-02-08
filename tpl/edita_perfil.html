@@ -1,0 +1,34 @@
+<div id="form_usuario">
+	
+	<form action="registro.php?action=[acctionformulario]" method="post"  onSubmit = "return validar(this)" enctype="multipart/form-data">
+		<fieldset>
+			<table>
+				<tr>
+					<th colspan="2"><strong>Registro Nuevo Usuario</strong></th>
+				</tr>
+				<tr>
+					<td>Nombre:</td><td><input type="text" name="nombreUsuario" value="" size=""></td>
+				</tr>
+				<tr>
+					<td>Password Actual: </td><td><input type="password" name="passwordUsuario_a" value="" size=""></td>
+				</tr>
+				<tr>
+					<td>Password Nuevo:</td><td><input type="password" name="passwordUsuario_n" value="" size=""></td>
+				</tr>
+				<tr>
+					<td>Imagen:</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input name="archivo" type="file" class="casilla" id="archivo" size="" />
+						<input name="action" type="hidden" value="upload" />
+					</td>
+				</tr>
+				<tr >
+					<td colspan="2"><input type="submit" name="" value="Registrarme" size=""></td> </br>
+					
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+	
+</div>

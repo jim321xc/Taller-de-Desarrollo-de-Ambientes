@@ -1,0 +1,358 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background-image: url(../images/tales.gif);
+	background-repeat: repeat;
+	font-family:Eras Medium ITC,Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+}
+
+p{
+	margin:0px;
+	padding:0px;
+}
+
+td, th{
+	font-family:Eras Medium ITC,Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+a{
+	color:#CC0000;
+}
+
+	a:hover{
+		color:#CC6600;
+		text-decoration:none;
+	}
+
+img{
+	border:0px;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+li{
+	margin:0px;
+	padding:0px;
+}
+
+blockquotes{
+}
+
+
+/*******Formulario Login*********/
+#form_login{
+	
+	margin-top:0px;
+	margin-left:0px;
+	padding:0px;
+	width:180px;
+	color:#000000;
+}
+
+#form_login  th{
+	color:white;
+	background-image: url(../images/ventita.gif);
+	background-repeat: repeat;
+	font-size:12px;
+}
+
+#form_login  a{
+	text-decoration: none;
+	
+	color:black;
+}
+
+#form_login  a:hover{
+	color:white;
+}
+
+#form_login table{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#form_login fieldset{
+	
+}	
+
+/****************/
+/*******Formulario Sesion*********/
+#form_sesion{
+	margin-left:150px;
+	padding:50px;
+	width:225px;
+	/*height:300px;*/
+}
+
+#form_sesion table{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#form_sesion th{
+	color:white;
+	background-image: url(../images/ventita.gif);
+	background-repeat: repeat;
+}
+/*
+form_sesion label{
+	float:left;
+}
+
+#form_sesion input{
+	float:right;
+}
+*/
+/*********************************/
+
+/*********Formulario************/
+#formulario{
+	float:left;	
+	
+	width:730px;
+	height:340px;
+	background-image: url(../images/tela1.jpg);
+	background-repeat: repeat;
+}
+/*****************************/
+/*******Formulario Usuario********/
+
+#form_usuario{
+	margin-left:200px;
+	margin-top:50px;
+
+	width:245px;
+}
+
+#form_usuario table {
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+
+#form_usuario th{
+	color:white;
+	background-image: url(../images/ventita.gif);
+	background-repeat: repeat;
+}
+
+
+
+#form_usuario input{
+ float:right;	
+	
+}
+/*************************/
+/************form degistro ok*************/
+#form_registro_ok{
+
+	margin-left:200px;
+	margin-top:50px;
+	
+	padding:0px;
+	width:245px;
+	
+}
+#form_registro_ok fieldset{
+	color:white;
+	background-image: url(../images/banner3.png);
+	background-repeat: repeat;
+	text-align:center;
+}
+#form_registro_ok h1{
+	
+	text-align:center:
+}
+
+/*************************/
+
+/*******Containers********/
+
+#page{
+	margin:0px auto;
+	margin-top:10px;
+	width:930px;	
+}
+
+#header{
+	float:left;
+	width:100%;/*mucho cuidado*/
+	height:145px;
+	
+}
+#header_main{
+	float:left;
+	width:100%;
+	height:135px;
+	
+	background-image:url(../images/header1.gif);
+	/*background-repeat:repeat-x;*/
+}
+
+#header_main h1{
+	margin-top:40px;
+	text-align:center;
+	color:white;
+	font-family:forte;
+	background-repeat: repeat;
+	font-size:34px;
+}
+		
+#content{
+	float:left;
+	width:100%;
+	
+	
+}
+
+#main_content{
+	float:left;	
+	width:570px;
+	/*height:400px;*/
+	padding-bottom:5px;
+
+}
+
+#sidebar_izq{
+	float:left;	
+	width:180px;
+	/*height:400px;*/
+	
+	padding-bottom:5px;
+	
+}
+
+#sidebar_der{
+	float:right;	
+	width:180px;
+	/*height:400px;*/
+	
+	padding-bottom:0px;
+	
+}
+/**********PIZARRON*******/
+#form_pizarron{
+	margin-left:20px;
+	margin-top:0px;
+	width:530px;
+}
+
+#form_pizarron table {
+	width:507px;
+
+}
+
+#imagen{
+	float:left;
+	margin-top:2px;
+}
+
+#form_pizarron th{
+	color:white;
+	background-image: url(../images/ventita.gif);
+	background-repeat: repeat;
+	
+}
+
+#fondo{
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	background:white;
+}
+
+#datos{
+	float:left;
+ 	margin-top:0px;
+	
+}
+ 
+#boton{
+	float:right;
+ 	margin-top:0px;
+	
+}
+
+#form_pizarron a{
+	float:right;
+ 	margin-top:0px;
+	
+	
+}
+
+#form_pizarron2{
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#form_pizarron2 table{
+	background-image: url(../images/tales.gif);
+	width:200px;	
+		
+}
+
+#form_pizarron2 th{
+	color:white;
+	background-image: url(../images/ventita.gif);
+	background-repeat: repeat;
+	
+}
+
+#form_pizarron3{
+	margin-left:20px;
+	margin-top:30px;
+}
+
+#form_pizarron3 table{
+	background-image: url(../images/tales.gif);
+	width:525px;	
+		
+}
+
+#form_pizarron3 th{
+	color:white;
+	background-image: url(../images/ventita.gif);
+	background-repeat: repeat;
+	
+}
+
+#fecha {
+	color:#FFFFFF;
+	font-size:10px;
+	text-align:center-right;
+}
+/********************/
+
+#footer{
+	float:left;
+	width:100%;
+	height:17px;
+	background-image: url(../images/ventita.gif);
+	background-repeat: repeat;
+	color:#ffffff;
+	text-align:center;
+}
+
+#login label {
+	color:white;
+	margin-left:5px;
+}
+
+#login input {
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+#listado{
+	padding-left:15px;
+}
+

@@ -1,0 +1,24 @@
+<div id="form_pizarron2">
+<fieldset>
+		<!--form action="registro.php?action=[acctionformulario]" method="post" enctype="multipart/form-data" onSubmit = "return recupera(this)"-->
+		<table>
+			<tr>
+				<th>Selecione una imagen</th>
+			</tr>
+			<tr>
+				<td><input name="img1" type="file" /></td>
+			</tr>
+			<tr>
+				<td>
+				<input type="hidden" name="band" value="true" />
+				<input type="hidden" name="id" value="[id]" />
+				
+				<!--input type="submit" name="boton" value="Cargar" /-->
+				<input type="button" onClick="envia('registro.php?action=[botonimg]')" value="Cargar">
+				<input type="Button" value="Cancelar" onclick="closeajax('formImg'); return false;"/>
+				</td>
+			</tr>
+		</table>
+		<!--/form-->
+</fieldset>
+</div>
